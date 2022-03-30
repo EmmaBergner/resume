@@ -20,6 +20,11 @@
     background-color: #b68e8e;
 }
 
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
 .ui-menu-color-home {
     background-color: #baa1c0;
 }
@@ -275,7 +280,7 @@ footer {
 /*--------------------------------------------Work History*/
 .history-heading {
     color: #fafafa;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .timeline-item {
@@ -318,4 +323,38 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*--------------------------------------------Contact Form*/
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #676767;
+}
+
+
+/*--------------------------------------------Media Queries */
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
