@@ -30,11 +30,11 @@
 }
 
 .ui-menu-color-resume {
-    background-color: #b68e8e;
+    background-color: #c59494;
 }
 
 .ui-menu-color-contact {
-    background-color: #baa1c0;
+    background-color: #a1a0c2;
 }
 
 .ui-menu-color-download {
@@ -194,8 +194,6 @@ footer {
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
-
-
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -205,11 +203,12 @@ footer {
     color: #baa1c0;
 }
 
-.social-links {
-    padding-bottom: 15px;
+#footer-details {
+    padding: 20px;
 }
 
-.social-links li a i {
+.linkedin {
+    color: #fafafa;
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -217,7 +216,6 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -225,19 +223,23 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    background: #baa1c0;
-}
-
-#footer-details {
-    padding: 20px;
+.linkedin :hover {
+    color: #baa1c0;
 }
 
 /*--------------------------------------------About Me*/
 
 .reasons-heading {
     margin-bottom: 15px;
+   
 
+}
+
+.career-change {
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: "Roboto";
+    
 }
 
 /*--------------------------------------------Personal Info*/
