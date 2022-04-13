@@ -16,6 +16,14 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Emma</title>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("y8K7S8nVqxK1zSoax");
+        })();
+    </script>
+
 </head>
 
 <body>
@@ -67,7 +75,8 @@
                 <h5 class="uppercase text-center">Let's work together!</h5>
 
                 <div class="center-form">
-                    <form>
+                    <form id= "mailform", onsubmit="sendMail(this);">
+                   
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                         <input type="email" name="email" id="emailadress" class="form-control" placeholder="Email"
                             required />
@@ -109,14 +118,16 @@
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Social</h5>
-                <ul class="list-inline social-links"> Please check out my 
-                    <a href="https://www.linkedin.com/in/emma-bergner-184b89138/" target="_blank" class=" list-inline linkedin" rel="nooperner"> 
+                <ul class="list-inline social-links"> Please check out my
+                    <a href="https://www.linkedin.com/in/emma-bergner-184b89138/" target="_blank"
+                        class=" list-inline linkedin" rel="nooperner">
                         LinkedIn </a>
 
                 </ul>
             </div>
         </div>
     </footer>
+    <script src="js/sendMail.js"></script>
 </body>
 
 </html>
