@@ -17,7 +17,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #b68e8e;
+    background-color: #d9b2b2;
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 .ui-menu-color-resume {
-    background-color: #c59494;
+    background-color: #d9b2b2;
 }
 
 .ui-menu-color-contact {
@@ -213,7 +213,7 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 10px;
     line-height: 7px;
     text-align: center;
     background: #8f8f8f;
