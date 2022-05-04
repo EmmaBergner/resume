@@ -230,7 +230,7 @@ footer {
 /*--------------------------------------------About Me*/
 
 .reasons-heading {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
    
 
 }
@@ -359,4 +359,12 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+.link-dark {
+    color: #d9b2b2;
+    font-family: "Exo", sans-serif;
+}
+    
+
 }
